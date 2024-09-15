@@ -14,20 +14,6 @@ body {
     background-size: cover; /* Faz a imagem de fundo cobrir a tela */
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    z-index: 1000;
-}
-
-footer img {
-    max-width: 200px; /* Ajuste o tamanho da logo conforme necessário */
-    margin-bottom: 0;
-}
-
 #main-content {
     display: flex;
     flex-direction: column;
@@ -70,11 +56,15 @@ footer img {
 
 /* Estilo para o rodapé */
 footer {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     padding: 10px;
+    z-index: 1000;
 }
 
 footer img {
