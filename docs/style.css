@@ -52,6 +52,18 @@ body {
     line-height: 1.5;
 }
 
+#versiculo-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    flex-direction: column;
+    text-align: center; /* Centraliza o texto do versículo */
+    padding: 20px;
+    max-width: 90%; /* Limita a largura do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    word-wrap: break-word; /* Quebra o texto em palavras longas */
+}
+
 #versiculo h1 {
     font-size: 1.5em;
     margin: 0;
