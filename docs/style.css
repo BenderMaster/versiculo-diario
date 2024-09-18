@@ -24,13 +24,22 @@ body {
     max-width: 100%; /* Evita que o conteúdo ultrapasse a largura */
 }
 
+
 #titulo {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    font-size: 1.5em;
+        position: fixed;
+        top: 0;
+        left: 15px;
+        right: 15px;
+        width: calc(100% - 30px); /* Para garantir que o título ocupe a largura total com margens de 15px */
+        font-size: 1.5em; /* Ajuste o tamanho conforme necessário */
+        text-align: center;
+        padding: 10px 0; /* Espaçamento superior e inferior */
+        white-space: nowrap; /* Impede a quebra de linha */
+        overflow: hidden; /* Se o título for muito longo, ele não irá quebrar */
+        z-index: 999; /* Para garantir que o título fique acima dos outros elementos */
+        color: aliceblue;
 }
+
 
 #versiculo {
     background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo branca com opacidade */
@@ -68,7 +77,7 @@ footer {
 }
 
 footer img {
-    max-width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+    max-width: 150px;
     height: auto;
 }
 
@@ -86,13 +95,18 @@ footer img {
     }
 
     #titulo {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 1.1em;
-        align-self: center;
-        margin: 10px;
+        position: fixed;
+        top: 0;
+        left: 15px;
+        right: 15px;
+        width: calc(100% - 30px); /* Para garantir que o título ocupe a largura total com margens de 15px */
+        font-size: 1.2em; /* Ajuste o tamanho conforme necessário */
+        text-align: center;
+        padding: 10px 0; /* Espaçamento superior e inferior */
+        white-space: nowrap; /* Impede a quebra de linha */
+        z-index: 999; /* Para garantir que o título fique acima dos outros elementos */
         color: aliceblue;
-        margin-top: 20px;
-        margin-bottom: 00px;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     #versiculo h1 {
@@ -116,13 +130,18 @@ footer img {
     }
 
     #titulo {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 1.3em;
-        align-self: center;
-        margin: 10px;
+        position: fixed;
+        top: 0;
+        left: 15px;
+        right: 15px;
+        width: calc(100% - 30px); /* Para garantir que o título ocupe a largura total com margens de 15px */
+        font-size: 1.2em; /* Ajuste o tamanho conforme necessário */
+        text-align: center;
+        padding: 10px 0; /* Espaçamento superior e inferior */
+        white-space: nowrap; /* Impede a quebra de linha */
+        z-index: 999; /* Para garantir que o título fique acima dos outros elementos */
         color: aliceblue;
-        margin-top: 180px;
-        margin-bottom: 0;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     #versiculo h1 {
@@ -146,13 +165,18 @@ footer img {
     }
 
     #titulo {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 1.5em;
-        align-self: center;
-        margin: 10px;
+        position: fixed;
+        top: 0;
+        left: 15px;
+        right: 15px;
+        width: calc(100% - 30px); /* Para garantir que o título ocupe a largura total com margens de 15px */
+        font-size: 1.2em; /* Ajuste o tamanho conforme necessário */
+        text-align: center;
+        padding: 10px 0; /* Espaçamento superior e inferior */
+        white-space: nowrap; /* Impede a quebra de linha */
+        z-index: 999; /* Para garantir que o título fique acima dos outros elementos */
         color: aliceblue;
-        margin-top: 150px;
-        margin-bottom: 0;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     #versiculo h1 {
@@ -176,13 +200,18 @@ footer img {
     }
 
     #titulo {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 1.1em;
-        align-self: center;
-        margin: 10px;
+        position: fixed;
+        top: 0;
+        left: 15px;
+        right: 15px;
+        width: calc(100% - 30px); /* Para garantir que o título ocupe a largura total com margens de 15px */
+        font-size: 1.2em; /* Ajuste o tamanho conforme necessário */
+        text-align: center;
+        padding: 10px 0; /* Espaçamento superior e inferior */
+        white-space: nowrap; /* Impede a quebra de linha */
+        z-index: 999; /* Para garantir que o título fique acima dos outros elementos */
         color: aliceblue;
-        margin-top: 120px;
-        margin-bottom: 0;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     #versiculo h1 {
